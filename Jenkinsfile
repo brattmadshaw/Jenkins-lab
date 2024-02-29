@@ -1,6 +1,6 @@
 pipeline{
     agent {
-        label "worker"
+        label "test-pipeline"
     }
     stages{
         stage("make directory"){
